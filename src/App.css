@@ -1,38 +1,54 @@
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background: #040c18;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.main-container {
+  width: 82%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blur-01 {
+  position: absolute;
+  width: 1013px;
+  height: 1013px;
+  left: -336px;
+  top: -305px;
+  background: #002853;
+  filter: blur(282px);
+}
+
+.blur-02 {
+  position: absolute;
+  width: 777px;
+  height: 777px;
+  left: -444px;
+  top: 1712px;
+
+  background: #07325f;
+  filter: blur(282px);
+}
+
+.blur-03 {
+  position: absolute;
+  width: 701px;
+  height: 496px;
+  left: 1127px;
+  top: 500px;
+
+  background: #072d56;
+  filter: blur(282px);
 }

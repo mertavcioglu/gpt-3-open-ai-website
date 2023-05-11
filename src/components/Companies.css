@@ -1,0 +1,12 @@
+.companies-container {
+  display: flex;
+  gap: 4rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+}
+
+.company-image {
+  height: 2rem;
+}

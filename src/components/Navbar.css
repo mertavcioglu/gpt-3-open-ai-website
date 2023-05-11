@@ -1,0 +1,47 @@
+.navbar-container {
+  margin-top: 4.6rem;
+  height: 4.85rem;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  font-size: 1.45rem;
+  letter-spacing: 0.05rem;
+}
+
+.navbar__group-01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.navbar__group-02 {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-left: 2.4rem;
+  z-index: 1;
+}
+
+.navbar__group-03 {
+  flex: 2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2.25rem;
+}
+
+.navbar__sign-up-button {
+  background: #ff4820;
+  border-radius: 0.5rem;
+  width: 12.6rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+}
