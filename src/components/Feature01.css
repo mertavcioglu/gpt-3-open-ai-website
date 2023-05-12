@@ -1,0 +1,36 @@
+.feature01-container {
+  margin-top: 20rem;
+  display: flex;
+  gap: 13.5rem;
+}
+
+.feature01__left-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature01__left-field-header {
+  font-weight: 800;
+  font-size: 2.8rem;
+  line-height: 3.7rem;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 35rem;
+}
+
+.feature01__left-field-text {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 2.45rem;
+  color: #ff8a71;
+}
+
+.feature01__right-field {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}

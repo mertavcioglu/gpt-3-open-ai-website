@@ -3,7 +3,7 @@ import "./GPT3.css";
 function GPT3() {
   return (
     <div className="gpt3-container">
-      <div className="gpt3__rectangle" />
+      <div className="rectangle-color" />
       <div className="gpt3__field gpt3__first-field">
         <h1 className="gpt3__first-field-header">What is GPT-3</h1>
         <p className="gpt3__first-field-text">
@@ -21,7 +21,7 @@ function GPT3() {
       </div>
       <div className="gpt3__field gpt3__third-field">
         <div className="gpt3__third-field-card">
-          <div className="gpt3__rectangle" />
+          <div className="rectangle-color" />
           <h1 className="gpt3__third-field-header">Chatbots</h1>
           <p className="gpt3__third-field-text">
             We so opinion friends me message as delight. Whole front do of plate
@@ -29,7 +29,7 @@ function GPT3() {
           </p>
         </div>
         <div className="gpt3__third-field-card">
-          <div className="gpt3__rectangle" />
+          <div className="rectangle-color" />
           <h1 className="gpt3__third-field-header">Knowledgebase</h1>
           <p className="gpt3__third-field-text">
             At jointure ladyship an insisted so humanity he. Friendly bachelor
@@ -37,7 +37,7 @@ function GPT3() {
           </p>
         </div>
         <div className="gpt3__third-field-card">
-          <div className="gpt3__rectangle" />
+          <div className="rectangle-color" />
           <h1 className="gpt3__third-field-header">Education</h1>
           <p className="gpt3__third-field-text">
             At jointure ladyship an insisted so humanity he. Friendly bachelor

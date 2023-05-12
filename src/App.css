@@ -52,3 +52,11 @@ body {
   background: #072d56;
   filter: blur(282px);
 }
+
+.rectangle-color {
+  position: absolute;
+  width: 3.15rem;
+  height: 3px;
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+}

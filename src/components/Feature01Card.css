@@ -1,0 +1,20 @@
+.feature01__right-field-card {
+  display: flex;
+  gap: 8.5rem;
+}
+
+.feature01__right-field-header {
+  font-weight: 800;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: -0.02em;
+  width: 13.5rem;
+  margin-top: 0.55rem;
+}
+
+.feature01__right-field-text {
+  font-size: 1.15rem;
+  line-height: 2rem;
+  color: #81afdd;
+  margin-top: 0;
+}
