@@ -3,7 +3,7 @@ import "./GPT3.css";
 
 function GPT3() {
   return (
-    <div className="gpt3-container">
+    <div className="gpt3-container" id="gpt3">
       <div className="rectangle-color" />
       <div className="gpt3__field gpt3__first-field">
         <h1 className="gpt3__first-field-header">What is GPT-3</h1>

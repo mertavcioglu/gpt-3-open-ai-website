@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-scroll";
 
 function Navbar() {
   return (
@@ -9,11 +10,21 @@ function Navbar() {
       </div>
       <div className="blur-01" />
       <div className="navbar__group-02">
-        <li className="navbar__group-02-item">Home</li>
-        <li className="navbar__group-02-item">What is GPT?</li>
-        <li className="navbar__group-02-item">Open AI</li>
-        <li className="navbar__group-02-item">Case Studies</li>
-        <li className="navbar__group-02-item">Library</li>
+        <Link className="navbar__group-02-item" smooth spy to="home">
+          Home
+        </Link>
+        <Link className="navbar__group-02-item" smooth spy to="gpt3">
+          What is GPT?
+        </Link>
+        <Link className="navbar__group-02-item" smooth spy to="feature01">
+          Open AI
+        </Link>
+        <Link className="navbar__group-02-item" smooth spy to="feature02">
+          Case Studies
+        </Link>
+        <Link className="navbar__group-02-item" smooth spy to="blog">
+          Library
+        </Link>
       </div>
       <div className="navbar__group-03">
         <li className="navbar__group-03-item">Sign in</li>

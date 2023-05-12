@@ -4,7 +4,7 @@ import feature02image from "../images/possibility.png";
 
 function Feature02() {
   return (
-    <div className="feature02-container">
+    <div className="feature02-container" id="feature02">
       <img
         src={feature02image}
         alt="feature02-img"

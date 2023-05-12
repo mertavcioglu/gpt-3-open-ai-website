@@ -3,7 +3,7 @@ import "./BlogCard.css";
 
 function BlogCard(props) {
   return (
-    <div className="blog-card-container">
+    <div className="blog-card-container" id="blog">
       <img src={props.image} alt="blog-img01" className="blog-image-01" />
       <div className="blog-card__field">
         <p className="blog-card__date">{props.date}</p>

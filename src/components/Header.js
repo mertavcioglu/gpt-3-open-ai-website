@@ -5,7 +5,7 @@ import headerPeople from "../images/people.png";
 
 function Header() {
   return (
-    <div className="header-container">
+    <div className="header-container" id="home">
       <div className="blur-03" />
       <div className="header__content">
         <h1 className="header__content-header">
