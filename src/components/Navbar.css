@@ -64,5 +64,6 @@
   cursor: pointer;
 }
 .navbar__sign-up-button:hover {
+  color: white;
   background-color: #fc8805;
 }
