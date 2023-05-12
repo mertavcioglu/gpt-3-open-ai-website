@@ -15,6 +15,10 @@
   font-size: 1.75rem;
   font-weight: 800;
   z-index: 1;
+  cursor: pointer;
+}
+.navbar__group-01:hover {
+  color: orange;
 }
 
 .navbar__group-02 {
@@ -26,12 +30,26 @@
   z-index: 1;
 }
 
+.navbar__group-02-item {
+  cursor: pointer;
+}
+.navbar__group-02-item:hover {
+  color: orange;
+}
+
 .navbar__group-03 {
   flex: 2;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 2.25rem;
+}
+
+.navbar__group-03-item {
+  cursor: pointer;
+}
+.navbar__group-03-item:hover {
+  color: orange;
 }
 
 .navbar__sign-up-button {
@@ -44,4 +62,8 @@
   justify-content: center;
   outline: none;
   border: none;
+  cursor: pointer;
+}
+.navbar__sign-up-button:hover {
+  background-color: #fc8805;
 }

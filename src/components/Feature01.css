@@ -7,6 +7,7 @@
 .feature01__left-field {
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .feature01__left-field-header {

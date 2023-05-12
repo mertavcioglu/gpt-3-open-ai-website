@@ -1,0 +1,35 @@
+.blog-card-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 27.2rem;
+  height: 26.7rem;
+  background: #042c54;
+}
+
+.blog-card__field {
+  padding: 1.5rem 1rem 0 2.1rem;
+}
+
+.blog-card__header {
+  font-weight: 800;
+  font-size: 1.6rem;
+  line-height: 2.45rem;
+}
+
+.blog-card__date {
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.blog-card__text {
+  font-weight: 500;
+  font-size: 0.95rem;
+  display: flex;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+.blog-card__text:hover {
+  color: orange;
+}

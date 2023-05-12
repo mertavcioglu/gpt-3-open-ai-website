@@ -1,5 +1,6 @@
 import React from "react";
 import "./GPT3.css";
+
 function GPT3() {
   return (
     <div className="gpt3-container">

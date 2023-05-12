@@ -5,6 +5,7 @@ import Feature01Card from "./Feature01Card";
 function Feature01() {
   return (
     <div className="feature01-container">
+      <div className="blur-02" />
       <div className="feature01__left-field">
         <h1 className="feature01__left-field-header">
           The Future is Now and You Just Need To Realize It. Step into Future

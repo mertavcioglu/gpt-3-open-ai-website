@@ -9,4 +9,9 @@
 
 .company-image {
   height: 2rem;
+  cursor: pointer;
+}
+
+.company-image:hover {
+  opacity: 0.7;
 }

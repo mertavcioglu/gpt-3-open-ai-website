@@ -7,7 +7,7 @@ function Navbar() {
       <div className="navbar__group-01">
         <li className="navbar__group-01-item">GPT-3</li>
       </div>
-      <div className="blur-01"></div>
+      <div className="blur-01" />
       <div className="navbar__group-02">
         <li className="navbar__group-02-item">Home</li>
         <li className="navbar__group-02-item">What is GPT?</li>

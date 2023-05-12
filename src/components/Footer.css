@@ -1,0 +1,97 @@
+.footer-container {
+  height: 78.3rem;
+  background: #031b34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 99vw;
+  margin-left: -11%;
+  padding-bottom: 1.5rem;
+}
+
+.footer__header {
+  font-weight: 800;
+  font-size: 5.1rem;
+  line-height: 6.2rem;
+  width: 67.7rem;
+  margin-top: 15rem;
+  text-align: center;
+  letter-spacing: -0.04em;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer__button {
+  width: 18rem;
+  border: 1px solid #ffffff;
+  font-size: 1.4rem;
+  background-color: inherit;
+  color: #ffffff;
+  padding: 1.7rem;
+  margin-top: 1.75rem;
+  cursor: pointer;
+}
+.footer__button:hover {
+  border: 1px solid orange;
+  color: orange;
+}
+
+.footer__links {
+  display: flex;
+  width: 100%;
+  margin-top: 13rem;
+}
+
+.footer__links-left-field {
+  margin-left: 17rem;
+}
+
+.footer__links-left-field-header {
+  font-weight: 900;
+  font-size: 3.25rem;
+}
+
+.footer__links-left-field-text {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  width: 13.8rem;
+  margin-top: -1rem;
+}
+
+.footer__links-right-field {
+  display: flex;
+  gap: 10rem;
+  margin-left: 20rem;
+}
+
+.footer__links-right-field-part {
+  margin-top: 1rem;
+}
+
+.footer__links-right-field-part-header {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+}
+.footer__links-right-field-part-header:hover {
+  color: orange;
+}
+
+.footer__links-right-field-part-item {
+  list-style: none;
+  font-size: 1rem;
+  width: 9.5rem;
+  margin-top: 2.1rem;
+  cursor: pointer;
+}
+.footer__links-right-field-part-item:hover {
+  color: orange;
+}
+
+.footer__rights {
+  font-size: 1rem;
+  margin-top: 6.8rem;
+}

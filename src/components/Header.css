@@ -55,11 +55,12 @@
   border-radius: 5px 0px 0px 5px;
   outline: none;
   border: none;
+  color: white;
+  text-indent: 2.5rem;
 }
 
 .header__content-input::placeholder {
   color: #3d6184;
-  text-indent: 2.5rem;
 }
 
 .header__content-button {
@@ -76,6 +77,12 @@
   font-size: 1.65rem;
   color: white;
   font-weight: 700;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.header__content-button:hover {
+  background-color: #fc8805;
 }
 
 .header__content-people-field {

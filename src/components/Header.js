@@ -6,6 +6,7 @@ import headerPeople from "../images/people.png";
 function Header() {
   return (
     <div className="header-container">
+      <div className="blur-03" />
       <div className="header__content">
         <h1 className="header__content-header">
           Let’s Build Something amazing with GPT-3 OpenAI
@@ -18,7 +19,7 @@ function Header() {
         </p>
         <div className="header__content-input-field">
           <input
-            type="text"
+            type="email"
             placeholder="Your Email Address"
             className="header__content-input"
           />
