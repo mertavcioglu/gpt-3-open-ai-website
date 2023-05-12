@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/gpt-3-open-ai-website/static/css/main.2ee78f6d.css",
+    "main.js": "/gpt-3-open-ai-website/static/js/main.6d10d6fc.js",
+    "static/media/ai.png": "/gpt-3-open-ai-website/static/media/ai.aa60586ba1ba53762d94.png",
+    "static/media/possibility.png": "/gpt-3-open-ai-website/static/media/possibility.525f13b61a2157d44de0.png",
+    "static/media/people.png": "/gpt-3-open-ai-website/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "index.html": "/gpt-3-open-ai-website/index.html",
+    "main.2ee78f6d.css.map": "/gpt-3-open-ai-website/static/css/main.2ee78f6d.css.map",
+    "main.6d10d6fc.js.map": "/gpt-3-open-ai-website/static/js/main.6d10d6fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ee78f6d.css",
+    "static/js/main.6d10d6fc.js"
+  ]
+}
