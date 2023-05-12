@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gpt-3-open-ai-website/static/css/main.6fad3ee6.css",
-    "main.js": "/gpt-3-open-ai-website/static/js/main.4e5ba4a1.js",
+    "main.js": "/gpt-3-open-ai-website/static/js/main.a935d146.js",
     "static/media/ai.png": "/gpt-3-open-ai-website/static/media/ai.aa60586ba1ba53762d94.png",
     "static/media/possibility.png": "/gpt-3-open-ai-website/static/media/possibility.525f13b61a2157d44de0.png",
     "static/media/blog01.png": "/gpt-3-open-ai-website/static/media/blog01.cefc0932eae0d33a0342.png",
@@ -12,10 +12,10 @@
     "static/media/people.png": "/gpt-3-open-ai-website/static/media/people.5cd2d6fbcd48bd63f106.png",
     "index.html": "/gpt-3-open-ai-website/index.html",
     "main.6fad3ee6.css.map": "/gpt-3-open-ai-website/static/css/main.6fad3ee6.css.map",
-    "main.4e5ba4a1.js.map": "/gpt-3-open-ai-website/static/js/main.4e5ba4a1.js.map"
+    "main.a935d146.js.map": "/gpt-3-open-ai-website/static/js/main.a935d146.js.map"
   },
   "entrypoints": [
     "static/css/main.6fad3ee6.css",
-    "static/js/main.4e5ba4a1.js"
+    "static/js/main.a935d146.js"
   ]
 }
