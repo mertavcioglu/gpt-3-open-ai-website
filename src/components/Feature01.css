@@ -35,3 +35,24 @@
   gap: 2.5rem;
   margin-top: 2rem;
 }
+
+@media (width < 1367px) {
+  .feature01-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .feature01__left-field-header {
+    display: flex;
+    align-self: center;
+    text-align: center;
+  }
+  .feature01__left-field-text {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  .feature01__right-field {
+    gap: 3rem;
+  }
+}

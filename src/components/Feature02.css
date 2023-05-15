@@ -46,3 +46,17 @@
   color: #ff8a71;
   margin-top: 3rem;
 }
+
+@media (width < 1367px) {
+  .feature02-container {
+    margin-top: 7rem;
+  }
+  .feature02__image {
+    width: 30rem;
+    height: fit-content;
+    margin-left: 0;
+  }
+  .feature02__right-field {
+    margin-top: 4rem;
+  }
+}

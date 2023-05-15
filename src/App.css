@@ -60,3 +60,9 @@ body {
   background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
     #ffffff;
 }
+
+@media (width < 1367px) {
+  body {
+    overflow-x: hidden;
+  }
+}

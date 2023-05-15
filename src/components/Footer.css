@@ -95,3 +95,16 @@
   font-size: 1rem;
   margin-top: 6.8rem;
 }
+
+@media (width < 1367px) {
+  .footer__links-left-field {
+    margin-left: 8rem;
+  }
+  .footer__links-right-field {
+    gap: 5rem;
+    margin-left: 15rem;
+  }
+  .footer__links-right-field-part-item {
+    margin-top: 1.5rem;
+  }
+}

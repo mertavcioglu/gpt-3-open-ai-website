@@ -70,3 +70,31 @@
   flex-wrap: wrap;
   gap: 4.025rem;
 }
+
+@media (width < 1367px) {
+  .blog-container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .blog__blog-group {
+    height: 94rem;
+    margin-top: 6rem;
+    flex-direction: column;
+  }
+  .blog__blog-group01 {
+    width: 100%;
+    flex-direction: row;
+  }
+  .blog-image-01 {
+    width: 35rem;
+  }
+  .blog__blog-group01-text {
+    margin-top: 4rem;
+  }
+  .blog__blog-group02 {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4.025rem;
+  }
+}

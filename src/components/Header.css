@@ -101,3 +101,13 @@
   margin-left: 1.5rem;
   font-size: 1rem;
 }
+
+@media (width < 1367px) {
+  .header__content-header-image {
+    position: absolute;
+    right: -150px;
+  }
+  .header__content-input {
+    height: 4rem;
+  }
+}

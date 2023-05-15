@@ -67,3 +67,12 @@
   color: white;
   background-color: #fc8805;
 }
+
+@media (width < 1367px) {
+  .navbar-container {
+    font-size: 1.2rem;
+  }
+  .navbar__group-02 {
+    gap: 1rem;
+  }
+}

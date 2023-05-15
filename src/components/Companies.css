@@ -15,3 +15,9 @@
 .company-image:hover {
   opacity: 0.7;
 }
+
+@media (width < 1367px) {
+  .companies-container {
+    margin-top: 10rem;
+  }
+}

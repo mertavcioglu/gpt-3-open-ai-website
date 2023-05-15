@@ -33,3 +33,14 @@
 .blog-card__text:hover {
   color: orange;
 }
+
+@media (width < 1367px) {
+  .blog-card-container {
+    width: 47%;
+    height: 28rem;
+    background: #042c54;
+  }
+  .blog-card__text {
+    margin-top: 3rem;
+  }
+}

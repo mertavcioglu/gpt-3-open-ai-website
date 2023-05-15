@@ -82,3 +82,13 @@
   color: #81afdd;
   margin-top: 4rem;
 }
+
+@media (width < 1367px) {
+  .gpt3-container {
+    height: 58rem;
+    margin-top: 5.5rem;
+  }
+  .gpt3__third-field-text {
+    margin-top: -1rem;
+  }
+}
