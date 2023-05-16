@@ -18,3 +18,10 @@
   color: #81afdd;
   margin-top: 0;
 }
+
+@media (width < 450px) {
+  .feature01__right-field-card {
+    flex-direction: column;
+    gap: 0;
+  }
+}

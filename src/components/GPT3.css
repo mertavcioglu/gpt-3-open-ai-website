@@ -1,5 +1,5 @@
 .gpt3-container {
-  height: 49rem;
+  height: min-content;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background: #042c54;
   padding: 5rem;
@@ -83,12 +83,48 @@
   margin-top: 4rem;
 }
 
+@media (width < 1520px) {
+  .gpt3-container {
+    height: min-content;
+    margin-top: 5.5rem;
+  }
+}
+
 @media (width < 1367px) {
   .gpt3-container {
-    height: 58rem;
+    padding: 1.25rem;
+
+    height: min-content;
     margin-top: 5.5rem;
   }
   .gpt3__third-field-text {
     margin-top: -1rem;
+  }
+}
+
+@media (width < 450px) {
+  .gpt3__field {
+    flex-direction: column;
+  }
+  .gpt3__first-field-text {
+    margin-top: -10rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .gpt3__second-field {
+  }
+  .gpt3__second-field-header {
+    width: 100%;
+    margin-top: -2rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+  .gpt3__third-field-card {
+    width: 100%;
+  }
+  .gpt3__third-field-text {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }

@@ -16,8 +16,41 @@
   opacity: 0.7;
 }
 
-@media (width < 1367px) {
+@media (width < 1500px) {
   .companies-container {
     margin-top: 10rem;
+  }
+}
+@media (width < 1175px) {
+  .companies-container {
+    margin-top: 15rem;
+  }
+}
+@media (width < 1050px) {
+  .companies-container {
+    margin-top: 25rem;
+  }
+  .company-image {
+    width: 50%;
+    height: auto;
+  }
+}
+@media (width < 800px) {
+  .companies-container {
+    margin-top: 40rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .company-image {
+    width: fit-content;
+    height: auto;
+  }
+}
+@media (width < 450px) {
+  .companies-container {
+    margin-top: 5rem;
+  }
+  .company-image {
+    margin-top: -2rem;
   }
 }

@@ -57,3 +57,20 @@
     margin-top: 8rem;
   }
 }
+@media (width < 450px) {
+  .get-started-container {
+    margin-top: 3rem;
+    flex-direction: column;
+    height: fit-content;
+  }
+  .get-started__left-field {
+    margin-left: 0;
+    padding: 1rem;
+  }
+  .get-started__button {
+    align-self: center;
+    margin: 0.75rem 0;
+    width: 90%;
+    height: 3rem;
+  }
+}

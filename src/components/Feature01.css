@@ -36,7 +36,7 @@
   margin-top: 2rem;
 }
 
-@media (width < 1367px) {
+@media (width < 1650px) {
   .feature01-container {
     margin-top: 5rem;
     display: flex;
@@ -54,5 +54,23 @@
   }
   .feature01__right-field {
     gap: 3rem;
+  }
+}
+
+@media (width < 450px) {
+  .feature01-container {
+    margin-top: 2rem;
+  }
+  .feature01__left-field-header {
+    width: 100%;
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .feature01__left-field-text {
+    margin: 1rem 0 0 0;
+    font-size: 1.1rem;
+  }
+  .feature01__right-field {
+    gap: 0;
   }
 }

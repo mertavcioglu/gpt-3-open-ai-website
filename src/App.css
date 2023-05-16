@@ -8,6 +8,7 @@ body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .App {
@@ -15,6 +16,7 @@ body {
   color: white;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 .main-container {
@@ -23,32 +25,30 @@ body {
 
 .blur-01 {
   position: absolute;
-  width: 1013px;
-  height: 1013px;
-  left: -336px;
-  top: -305px;
+  width: 52%;
+  height: 93%;
+  left: -17%;
+  top: -28%;
   background: #002853;
   filter: blur(282px);
 }
 
 .blur-02 {
   position: absolute;
-  width: 777px;
-  height: 777px;
-  left: -444px;
-  top: 2212px;
-
+  width: 40%;
+  height: 71%;
+  left: -23%;
+  top: 204%;
   background: #07325f;
   filter: blur(282px);
 }
 
 .blur-03 {
   position: absolute;
-  width: 701px;
-  height: 496px;
-  left: 1127px;
-  top: 700px;
-
+  width: 36%;
+  height: 45%;
+  left: 58%;
+  top: 64%;
   background: #072d56;
   filter: blur(282px);
 }
@@ -59,10 +59,4 @@ body {
   height: 3px;
   background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
     #ffffff;
-}
-
-@media (width < 1367px) {
-  body {
-    overflow-x: hidden;
-  }
 }

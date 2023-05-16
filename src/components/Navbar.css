@@ -76,3 +76,32 @@
     gap: 1rem;
   }
 }
+@media (width < 1200px) {
+  .navbar-container {
+    margin-top: 3.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .navbar__group-02 {
+    gap: 0.5rem;
+  }
+  .navbar__sign-up-button {
+    width: 6.6rem;
+    height: 100%;
+  }
+}
+@media (width < 1000px) {
+  .navbar-container {
+    font-size: 0.8rem;
+  }
+}
+
+@media (width < 450px) {
+  .navbar__group-02 {
+    display: none;
+  }
+  .navbar__sign-up-button {
+    width: 5rem;
+    height: 80%;
+  }
+}
